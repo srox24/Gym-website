@@ -1,0 +1,36 @@
+.pricing {
+    margin: 3rem 1rem;
+    text-align: center;
+}
+.pricing-table {
+    /* Content is centered horizontally */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.pricing-table-column {
+    /* Content is centered vertically */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* Make all columns have the same width */
+    flex: 1;
+
+    /* OPTIONAL: Space between columns */
+    margin: 0 0.5rem;
+
+    /* OPTIONAL: Border */
+    border: 1px solid #ff7000;
+    border-radius: 0.25rem;
+    height: 400px;
+}
+.pricing-table-column h4,h3,p,button{
+    margin-top: 1rem;
+}
+.pricing-table-column button{
+    display: block;
+}
